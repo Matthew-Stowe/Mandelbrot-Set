@@ -17,6 +17,8 @@ var imageData = ctx.createImageData(width,height);
 //Max iterations per pixle calculation
 var maxIterations = 250;
 
+var MandleBulb = [0,0]
+
 
 //Loops through every pixles and passes into iterate function
 function GenerateImage(){
